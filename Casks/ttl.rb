@@ -12,18 +12,18 @@ cask "ttl" do
   binary "ttl"
 
   on_macos do
-    url "https://github.com/tweenietomatoes/ttl/releases/download/v#{version}/ttl_darwin_all.tar.gz"
-    sha256 "8e4eb868654c4f3cf6d6128139af3c2e3cfa83f9cd7ae4f6cdf305cd08ecb95b"
+    url "https://github.com/tweenietomatoes/ttl/releases/download/v#{version}/ttl_#{version}_darwin_all.tar.gz"
+    sha256 "01724ee89d461fbf37c62c17af72f975781cfa11269f2426b37c43f06245e782"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/tweenietomatoes/ttl/releases/download/v#{version}/ttl_linux_amd64.tar.gz"
-      sha256 "b873c5f298f2fafef41719f2fd51b822d9aad984b20a1e65d5424a9e357dd95c"
+      url "https://github.com/tweenietomatoes/ttl/releases/download/v#{version}/ttl_#{version}_linux_amd64.tar.gz"
+      sha256 "3864bc05c1a4927b4feae8cc9b7d315ddefc5444737a1570fa94ccb11daa6612"
     end
     on_arm do
-      url "https://github.com/tweenietomatoes/ttl/releases/download/v#{version}/ttl_linux_arm64.tar.gz"
-      sha256 "00b97bf265390590f9c2bc7d25438f2265ea291acff77f8a6d448f1f3a589688"
+      url "https://github.com/tweenietomatoes/ttl/releases/download/v#{version}/ttl_#{version}_linux_arm64.tar.gz"
+      sha256 "5bb398a37f539ee00237b98362b87010039ad98da83b2446ae93228506a6051f"
     end
   end
 
