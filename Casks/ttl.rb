@@ -3,7 +3,7 @@ cask "ttl" do
   name "ttl"
   desc "E2E Encrypted Ephemeral Storage"
   homepage "https://ttl.space"
-  version "1.1.0"
+  version "1.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,17 +13,17 @@ cask "ttl" do
 
   on_macos do
     url "https://github.com/tweenietomatoes/ttl/releases/download/v#{version}/ttl_#{version}_darwin_all.tar.gz"
-    sha256 "8f12f0091a17d14a310432589c8d7a99db89673f60aa98f0601da4e7b4c85ac8"
+    sha256 "f57d85c357bfdd57e2af22b88b4a3fb8bc7f1c32897533b9b751d301d524cbfa"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/tweenietomatoes/ttl/releases/download/v#{version}/ttl_#{version}_linux_amd64.tar.gz"
-      sha256 "15c8de215743ff6f0236c4e95065943f38a2b65a0553f82841e74936c225fbb3"
+      sha256 "aab1bab1ccdc474df6e07fc31f75e4f6d853c8429362ab963853a580954be122"
     end
     on_arm do
       url "https://github.com/tweenietomatoes/ttl/releases/download/v#{version}/ttl_#{version}_linux_arm64.tar.gz"
-      sha256 "c763514e79e5ef5276a8c7cba90f2275c05ba705f1a2b2b307925d233e0fea43"
+      sha256 "056a972cd02911d3ffffcd8683cac904ae71f537c5fad17b3861b8b83a6dfbd6"
     end
   end
 
