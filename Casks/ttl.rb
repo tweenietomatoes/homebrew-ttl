@@ -3,17 +3,17 @@ cask "ttl" do
   version "1.4.0"
 
   on_macos do
-    sha256 "f29ac8cb873495ce7aa15b5995b8b6115867d8474819b3555707be400f888fbc"
+    sha256 "18e276b5ccc9846558e5179e4bb474264c2d2f87509e84b52d2fc79a463d11c7"
     url "https://github.com/tweenietomatoes/ttl/releases/download/v#{version}/ttl_#{version}_darwin_all.tar.gz"
   end
 
   on_linux do
     on_intel do
-      sha256 "5dfc7ab69cc2f460dbe324e1e17ab2a14f61e4cdb8540b0ff328b590a0db6247"
+      sha256 "76ff411c839f52c055b9973aef57817d36bcbee0f35af0c7235332cb3f2d1856"
       url "https://github.com/tweenietomatoes/ttl/releases/download/v#{version}/ttl_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "eb59eb752391c67db5908db8dff32066bab62fb172995dd3fe66acbb9fdb9dd4"
+      sha256 "8878da3b02c0248cea137069481becf7ab6a7aa8c19c10cc22ac24a55315d492"
       url "https://github.com/tweenietomatoes/ttl/releases/download/v#{version}/ttl_#{version}_linux_arm64.tar.gz"
     end
   end
